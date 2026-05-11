@@ -10,6 +10,8 @@
                         <option value="paid-social-lead">Paid Social (Lead Card)</option>
                         <option value="paid-social-img">Paid Social (Image)</option>
                         <option value="paid-social-vid">Paid Social (Video)</option>
+                        <option value="paid-linkedin-img">Paid LinkedIn (Image)</option>
+                        <option value="paid-linkedin-vid">Paid LinkedIn (Video)</option>
                         <option value="search">Paid Search (Google)</option>
                     </optgroup>
                     <optgroup label="ORGANISK (ORGANIC)">
@@ -184,6 +186,8 @@
         "paid-social-lead":{ src: "facebook",  med: "paid-social", con: "leadcard",    sign: "4113", camp: "4120", rec: "4127", path: "/beskyt-laeger/tak/", isLead: true },
         "paid-social-img": { src: "facebook",  med: "paid-social", con: "image",       sign: "4114", camp: "4121", rec: "4128", path: "/beskyt-laeger/" },
         "paid-social-vid": { src: "facebook",  med: "paid-social", con: "video",       sign: "4114", camp: "4121", rec: "4128", path: "/beskyt-laeger/" },
+        "paid-linkedin-img":{ src: "linkedin", med: "paid-social", con: "image",       sign: "4114", camp: "4121", rec: "4128", path: "/beskyt-laeger/" },
+        "paid-linkedin-vid":{ src: "linkedin", med: "paid-social", con: "video",       sign: "4114", camp: "4121", rec: "4128", path: "/beskyt-laeger/" },
         "search":          { src: "google",    med: "cpc",         con: "search",      sign: "4118", camp: "4125", rec: "4132", path: "/beskyt-laeger/" },
         "organic-fb":      { src: "facebook",  med: "organic",     con: "post",        sign: "4117", camp: "4124", rec: "4131", path: "/beskyt-laeger/" },
         "organic-ig":      { src: "instagram", med: "organic",     con: "post",        sign: "4117", camp: "4124", rec: "4131", path: "/beskyt-laeger/" },
